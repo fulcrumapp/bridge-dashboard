@@ -376,7 +376,7 @@ function drawCharts() {
     var chart = c3.generate({
         bindto: "#town-chart",
         size: {
-          height: 2000
+          height: 3000
         },
         data: {
           json: result,
